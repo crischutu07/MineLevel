@@ -1,0 +1,21 @@
+---
+name: MineLevel
+version: 1.0.0
+main: TungstenVn\MineLevel\Main
+author: TungstenVn
+api: 4.0.0
+src-namespace-prefix: TungstenVn\MineLevel
+description: "MineLevel API 4 By crischutu07#0001, Vietsub by: TungstenVn"
+commands:
+  minelevel:
+   description: "Cấp mine thẻ mùa của bạn / xem cấp người khác"
+   permission: "cmd.minelevel"
+   usage: "/minelevel <args>"
+   default: true
+
+permissions:
+  cmd.minelevel:
+    description: "Quyền của Lệnh /minelevel"
+    default: true
+
+...
